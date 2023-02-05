@@ -1,7 +1,7 @@
 import './index.scss';
-import { sample } from '../sample';
-const root = document.getElementById('sample') as HTMLElement;
-root.innerHTML = sample[0];
+// Import { sample } from './sample/sample.test';
+// const root = document.getElementById('sample') as HTMLElement;
+// root.innerHTML = sample[0];
 
 // Import { Footer } from './components/footer/footer';
 import { Header } from './components/header/header';
