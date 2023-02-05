@@ -1,7 +1,22 @@
-.header {
+.header__title * {
+  display: flex;
   background-color: gray;
   color: white;
   position: relative;
-  padding: 1rem;
-  min-height: 20vh;
+  padding: 0rem;
+  // min-height: 20vh;
 }
+
+.header__title {
+  background-color: gray;
+  color: white;
+  // position: relative;
+  // padding: 1rem;
+  // min-height: 20vh;
+}
+
+// .header__menu * {
+//   // background-color: blue;
+//   list-style: none;
+//   padding: 0;
+// }

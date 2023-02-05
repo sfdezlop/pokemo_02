@@ -1,8 +1,12 @@
 * {
   box-sizing: border-box;
   background-color: aqua;
+  padding: 0;
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 #sample {
-  background-color: red;
+  background-color: black;
+  color: aliceblue;
 }

@@ -1,31 +1,23 @@
 import './index.scss';
 import { sample } from '../sample';
-const root = document.getElementById('root') as HTMLElement;
+const root = document.getElementById('sample') as HTMLElement;
 root.innerHTML = sample[0];
 
 // Import { Footer } from './components/footer/footer';
 import { Header } from './components/header/header';
 // Import { Items } from './components/items/items';
-// import { Menu } from './components/menu/menu';
+import { Menu } from './components/menu/menu';
+
 // Import { Tasks } from './components/tasks/tasks';
 
 // import { mockPets } from './mocks/pets';
 
-export type MenuOption = {
-  label: string;
-  path: string;
-};
-
-const menuOptions: MenuOption[] = [
-  { label: 'Create', path: '/' },
-  { label: 'Read', path: '/' },
-  { label: 'Update', path: '/' },
-  { label: 'Delete', path: '/' },
-];
+// import { MenuOption } from '../models/menu';
+import { menuOptions } from './models/menu';
 
 // Console.log('Load sample');
 new Header('#root');
-// New Menu('.header', menuOptions);
+new Menu('.header__title', menuOptions);
 // New Tasks('main', TASK);
 // new Items('main', mockPets);
 // new Footer('#root');
