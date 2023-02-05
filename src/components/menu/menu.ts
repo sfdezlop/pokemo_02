@@ -1,6 +1,6 @@
-/* eslint-disable no-unused-vars */
-import { MenuOption } from '../../index';
 import { Component } from '../component/component';
+import { MenuOption } from '../models/menu';
+import { menuOptions } from '../models/menu';
 import './menu.scss';
 
 export class Menu extends Component {
@@ -13,9 +13,9 @@ export class Menu extends Component {
   createTemplate() {
     const items = this.menuOptions
       .map((item) => `<li><a href="${item.path}">${item.label}</a></li>`)
-      .join('\n');
+      .join('');
     return `
-    <nav class="menu"><ul>${items}</ul></nav>
+    <nav class="header__menu"><ul class="header__menu">${items}</ul></nav>
     `;
   }
 }

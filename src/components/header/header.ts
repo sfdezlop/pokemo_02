@@ -14,8 +14,8 @@ export class Header extends Component {
   private createTemplate() {
     return `
       <header class="header">
-        <h1>${this.title}</h1>
-        <p role="note" aria-label="info"></p>
+        <h1 class="header__title">${this.title}</h1>
+        // <p role="note" aria-label="info"></p>
       </header>
     `;
   }
