@@ -1,8 +1,8 @@
 {
-  "name": "week2 - TS",
+  "name": "Pokemon Challenge",
   "version": "1.0.0",
-  "description": "Ejercicios semana 2 . Bootcamp Madrid",
-  "main": "index.js",
+  "description": "Pokemon Challenge",
+  "main": "index.ts",
   "type": "module",
   "scripts": {
     "start": "tsc -w",
