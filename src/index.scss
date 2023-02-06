@@ -1,12 +1,80 @@
 * {
   box-sizing: border-box;
-  background-color: aqua;
+  background-color: rgb(98, 98, 98);
   padding: 0;
   margin: 0;
   font-family: 'Courier New', Courier, monospace;
 }
 
-#sample {
-  background-color: black;
-  color: aliceblue;
+// #sample {
+//   background-color: black;
+//   color: aliceblue;
+// }
+
+.pokemon__section1 {
+  display: grid;
+  // overflow: auto;
+  grid-template-columns: repeat(5, 12rem);
+  grid-template-rows: repeat(4, 16rem);
+  grid-gap: 1rem;
+  grid-auto-rows: 2rem;
+
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+
+.section__article * {
+  background-color: whitesmoke;
+}
+.section__article {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 5px 20px 1px black;
+  border-radius: 7px 7px 7px 7px;
+  height: 16rem;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  padding: 1rem;
+}
+
+.section__article div {
+  // justify-content: center;
+  // align-items: center;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  padding: 0.1rem;
+}
+
+.section__article h2 {
+  // justify-content: center;
+  // align-items: center;
+  padding: 0.1rem;
+  text-align: center;
+  align-content: center;
+}
+
+.article__button {
+  padding: 0.1rem;
+  font-size: 1rem;
+  border-radius: 7px 7px 7px 7px;
+  background-color: rgb(98, 98, 98);
+  color: whitesmoke;
+}
+
+.article__button:active {
+  transform: scale(0.75);
+}
+
+// .section__article button {
+//   padding: 20rem;
+// }
+
+#botoncargar,
+#botoncargar40 {
+  padding: 0.8rem;
+  margin-left: 2rem;
+  background-color: whitesmoke;
 }
