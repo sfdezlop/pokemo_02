@@ -1,6 +1,6 @@
 import { Component } from '../component/component';
-import { MenuOption } from '../models/menu';
-import { menuOptions } from '../models/menu';
+import { MenuOption } from '../../models/menu';
+// Import { menuOptions } from '../../models/menu';
 import './menu.scss';
 
 export class Menu extends Component {
